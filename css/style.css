@@ -1,0 +1,89 @@
+html * {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	height:100%;
+}
+.resize {
+	width: 990px;
+	margin: 0 auto;
+}
+.green-line {
+	min-height: 45px;
+	background: green;
+	position: relative;
+}
+.adress {
+	color: #fff;
+	font-weight: bold;
+	font-size: 16px;
+	padding-top: 15px;
+}
+.icons {
+	float: right;
+	position: absolute;
+	margin-left: 50%;
+	top: 8px;
+}
+.icons a{
+	float: right;
+	width:28px;
+	height:28px;
+	background: url(../images/sprite.png);
+	margin: 0 6px;
+}
+.icons a.vk {
+	background-position: -58px 0;
+}
+.icons a.fb {
+	background-position: -29px 0;
+}
+.icons a.british {
+	background-position: 0 0;
+}
+.logo {
+	float: left;
+	position: relative;
+	margin-right: 20px;
+}
+.logo:after {
+	content: "";
+	background-color: #000;
+	height: 40px;
+	width: 5px;
+	position: absolute;
+	display: inline-block;
+}
+.contacts {
+	color: #37a14c;
+	font-size: 16px;
+	float: left;
+}
+.contacts span {
+	font-size: 24px;
+}
+.skype {
+	position: relative;
+	margin-left: 18px;
+}
+.skype:before {
+	content: "";
+	background: url(../images/sprite.png);
+	background-position: -87px 0;
+	position: absolute;
+	width: 17px;
+	height: 18px;
+	left: -20px;
+	top: 1px;
+}
+.buttons {
+	float: left;
+	font-size: 16px;
+	width: 145px;
+}
+.button {
+	background-color: #fecc0a;
+	-webkit-box-shadow: 0 3px 2px 0 rgba(50,50,50,50);
+	box-shadow: 0 3px 2px 0 rgba(50,50,50,50);
+	padding: 5px 0;
+}
